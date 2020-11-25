@@ -2,6 +2,14 @@
 
 ## ✋ Please go through the README completely
 
+---
+
+# 🤯 POOR PERFORMANCE when using the tailwind directive like `@apply` inside the style.css.
+
+💡 you can checkout the issues related to performance on the `tailwindcss` github repo under issues section.
+
+---
+
 List of dev dependencies
 
 | Package                 | Version |
@@ -10,6 +18,7 @@ List of dev dependencies
 | @babel/preset-env       | ^7.12.7 |
 | autoprefixer            | ^10.0.2 |
 | babel-loader            | ^8.2.1  |
+| cross-env               | ^7.0.2  |
 | css-loader              | ^5.0.1  |
 | fibers                  | ^5.0.0  |
 | file-loader             | ^6.2.0  |
