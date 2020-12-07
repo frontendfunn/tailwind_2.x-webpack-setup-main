@@ -67,6 +67,17 @@ module.exports = {
             },
           },
           {
+            loader: "postcss-loader",
+            options: {
+              postcssOptions: {
+                plugins: [
+                  require("tailwindcss")("./tailwind.config.js"),
+                  require("autoprefixer"),
+                ],
+              },
+            },
+          },
+          {
             loader: "sass-loader",
             options: {
               implementation: require("sass"),
@@ -76,9 +87,6 @@ module.exports = {
               },
               sourceMap: true,
             },
-          },
-          {
-            loader: "postcss-loader",
           },
         ],
       },
@@ -97,10 +105,6 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "src/index.html",
-    }),
-    new HtmlWebpackPlugin({
-      filename: "page.html",
-      template: "src/page.html",
     }),
     new MiniCssExtractPlugin({ filename: "css/style.css" }),
     new webpack.HotModuleReplacementPlugin(),

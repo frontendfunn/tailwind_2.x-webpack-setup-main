@@ -1,10 +1,6 @@
 @tailwind base;
 @tailwind components;
-/* very poor performance please don't use @apply  
-
 body {
-  @apply bg-gray-200;
+  @apply bg-red-200;
 }
-
-*/
 @tailwind utilities;
