@@ -4,12 +4,6 @@
 
 ---
 
-# 🤯 POOR PERFORMANCE when using the tailwind directive like `@apply` inside the style.css.
-
-💡 you can checkout the issues related to performance on the `tailwindcss` github repo under issues section.
-
----
-
 List of dev dependencies
 
 | Package                 | Version |
@@ -35,8 +29,6 @@ List of dev dependencies
 | webpack                 | ^5.6.0  |
 | webpack-cli             | ^4.2.0  |
 | webpack-dev-server      | ^3.11.0 |
-
-👉 `purge` option is enabled Manually in `tailwind.config.js` instead of depending on the `NODE_ENV`
 
 ---
 
