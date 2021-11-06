@@ -2,6 +2,8 @@
 
 ## ✋ Please go through the README completely
 
+## Works with [Node.js v14.16.0](https://nodejs.org/de/blog/release/v14.16.0/)
+
 ---
 
 List of dev dependencies
